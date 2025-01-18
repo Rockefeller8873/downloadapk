@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download APK</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f7f7f7;
+        }
+
+        .download-btn {
+            background-color: #4CAF50; /* Green background */
+            color: white; /* White text */
+            padding: 15px 32px; /* Top-bottom, left-right padding */
+            text-align: center; /* Center the text */
+            text-decoration: none; /* Remove underline */
+            display: inline-block; /* Ensure the button appears inline */
+            font-size: 16px; /* Font size */
+            border: none; /* No border */
+            border-radius: 5px; /* Rounded corners */
+            cursor: pointer; /* Pointer cursor on hover */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            transition: all 0.3s ease; /* Smooth transition for hover effect */
+        }
+
+        .download-btn:hover {
+            background-color: #45a049; /* Darker green on hover */
+            transform: translateY(-2px); /* Lift the button slightly */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+        }
+
+        .download-btn:active {
+            transform: translateY(1px); /* Slight press effect */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Reset shadow when clicked */
+        }
+    </style>
+</head>
+<body>
+
+    <a href="path_to_your_file.apk" class="download-btn" download="YourApp.apk">Download APK</a>
+
+</body>
+</html>
